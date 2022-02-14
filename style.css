@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form_section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #edf0f5;
+    padding: 0 150px;
+}
+.face_logo{
+    margin-top: -100px;
+    padding: 0px 0 112px;
+    width: 500px;
+    text-align: left;
+}
+.face_logo img{
+    height: 106px;
+    margin: -28px;
+
+}
+.face_logo h2{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+.face_form{
+    padding: 0px 0 100px;
+
+}
+.face_form form{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+padding: 20px 0 28px;
+    width: 396px;
+}
+.face_form form input[type="text"],.face_form form input[type="password"]{
+    margin: 6px 0;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    line-height: 16px;
+
+
+}
+.face_form form input[type="text"]:focus,.face_form form input[type="password"]:focus{
+    border-color: #1877f2;
+    caret-color: #1877f2;
+    outline: none;
+
+
+
+}
+.face_form form input[type="submit"]{
+    margin: 6px 0px 16px 0px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+.face_form form input[type="submit"]:hover{
+background-color: #166fe5;
+border-color: #365899;
+}
+
+.forget_link{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.forget_link:hover{
+    text-decoration: underline;
+}
+.line{
+    width: 330px;
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+.create_link{
+    font-family: Helvetica, Arial, sans-serif;
+
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+}
+.celepraty_page{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.celepraty_page a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.celepraty_page a:hover{
+text-decoration: 1px underline;}
+@media  only screen and (max-width:895px){
+.face_logo{
+    padding:40px 50px 10px;
+}
+}
