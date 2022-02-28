@@ -64,7 +64,7 @@ padding: 20px 0 28px;
 
 
 }
-.face_form form input[type="submit"]{
+.face_form form button[type="submit"]{
     margin: 6px 0px 16px 0px;
     background-color: #1877f2;
     border: none;
@@ -78,7 +78,7 @@ padding: 20px 0 28px;
     font-family: Helvetica, Arial, sans-serif;
     cursor: pointer;
 }
-.face_form form input[type="submit"]:hover{
+.face_form form button[type="submit"]:hover{
 background-color: #166fe5;
 border-color: #365899;
 }
